@@ -3,3 +3,38 @@
 * {
   border: thin red solid;
 }
+
+.background {
+	height: 200px;
+	background-color: lightgray;
+}
+
+div.row {
+	clear: both;
+}
+
+.third {
+  float: left;
+  width: 33%;}
+
+
+.double {
+	float: left;
+	width: 66%;
+}
+
+.fourth {
+  float: left;
+  width: 25%;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+}
