@@ -1,6 +1,8 @@
 body {
   font-family: "Computer Modern Serif";
   font-size: 16pt;
+  margin: 100px 50px;
+
 }
 
 .title {
@@ -10,6 +12,24 @@ body {
 .space {
   letter-spacing: 2px;
 }
+
+.PG {
+  text-align: right;
+  text-transform: uppercase;
+}
+
+a:link{text-decoration: none;}
+
+ dt {
+    float: left;
+    clear: left;
+    width: 180px;
+    text-align: left;
+}
+ 
+  dd {
+    overflow: hidden;
+      }
 
 .subtitle {
     font-style: italic;
@@ -25,14 +45,14 @@ body {
 .caps {
     text-transform:uppercase;
     font-size: 100%;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     }
 
 
 .uncaps {
     text-transform:none;
     font-size: 75%;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     }
 
 .unbold {
@@ -44,32 +64,53 @@ body {
 }
 
 table
-{
-border-collapse:collapse;
-}
+  {border-collapse:collapse;
+  width: 80%;
+  }
+
 table, td, th
-{
-border:1px solid lightgray;
+  {border:1px solid lightgray;
+      margin-left: auto;
+  margin-right: auto;
+}
+
+td{
+  height: 25px;
 }
 
 .bb {
     background-color:black;
     color: white;
+    font-weight: normal;
     }
 
 .odd_week {
-    background-color:rgb(230,230,250);
+    background-color: lavender  ;
 }
 
 .week{
   -webkit-transform: rotate(-90deg);
+  text-transform: uppercase;
+  vertical-align: center;
+  text-align: center;
 }
 
-body {
+body{
   width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
+
+blockquote{
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.schedule { 
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 
 /* ----------------------------------------------------------------- */
 /* The scary stuff below is just to get the right font loaded up.    */
